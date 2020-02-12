@@ -1,0 +1,171 @@
+2020-02-09 03:47:00 INFO  BaseRunCallableParser:14 - TemperatureRunCallableParser.java --> run()
+2020-02-09 03:47:00 INFO  Sender:21 - Sender.java --> send() method
+2020-02-09 03:47:00 INFO  Sender:29 - Sender.java --> send() --> port:  9001
+2020-02-09 03:47:00 INFO  Sender:30 - Sender.java --> send() --> data: {}
+2020-02-09 03:47:00 INFO  Sender:33 - Sender.java --> send() method ip: 192.168.0.12 inetAdress: /192.168.0.12 -- message: [123, 125]
+2020-02-09 03:47:00 INFO  Sender:36 - Sender.java --> send() --> packet:  java.net.DatagramPacket@63dc78ce
+2020-02-09 03:47:00 INFO  Sender:42 - Sender.java --> send() -- data sended --> data packet: {}
+2020-02-09 16:47:00 INFO  BaseRunCallableParser:14 - TemperatureRunCallableParser.java --> run()
+2020-02-09 16:47:00 INFO  Sender:21 - Sender.java --> send() method
+2020-02-09 16:47:00 INFO  Sender:29 - Sender.java --> send() --> port:  9001
+2020-02-09 16:47:00 INFO  Sender:30 - Sender.java --> send() --> data: {"measurement":25.0,"measurementType":null,"deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 16:47:00 INFO  Sender:33 - Sender.java --> send() method ip: 192.168.0.12 inetAdress: /192.168.0.12 -- message: [123, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 34, 58, 50, 53, 46, 48, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 34, 58, 110, 117, 108, 108, 44, 34, 100, 101, 118, 105, 99, 101, 73, 100, 34, 58, 34, 82, 65, 83, 80, 66, 69, 82, 82, 89, 45, 80, 73, 45, 49, 50, 54, 53, 34, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 86, 97, 108, 117, 101, 34, 58, 34, -62, -80, 70, 34, 125]
+2020-02-09 16:47:00 INFO  Sender:36 - Sender.java --> send() --> packet:  java.net.DatagramPacket@9213159
+2020-02-09 16:47:00 INFO  Sender:42 - Sender.java --> send() -- data sended --> data packet: {"measurement":25.0,"measurementType":null,"deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 16:48:00 INFO  BaseRunCallableParser:14 - TemperatureRunCallableParser.java --> run()
+2020-02-09 16:48:00 INFO  Sender:21 - Sender.java --> send() method
+2020-02-09 16:48:00 INFO  Sender:29 - Sender.java --> send() --> port:  9001
+2020-02-09 16:48:00 INFO  Sender:30 - Sender.java --> send() --> data: {"measurement":25.0,"measurementType":null,"deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 16:48:00 INFO  Sender:33 - Sender.java --> send() method ip: 192.168.0.12 inetAdress: /192.168.0.12 -- message: [123, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 34, 58, 50, 53, 46, 48, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 34, 58, 110, 117, 108, 108, 44, 34, 100, 101, 118, 105, 99, 101, 73, 100, 34, 58, 34, 82, 65, 83, 80, 66, 69, 82, 82, 89, 45, 80, 73, 45, 49, 50, 54, 53, 34, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 86, 97, 108, 117, 101, 34, 58, 34, -62, -80, 70, 34, 125]
+2020-02-09 16:48:00 INFO  Sender:36 - Sender.java --> send() --> packet:  java.net.DatagramPacket@c30c47f
+2020-02-09 16:48:00 INFO  Sender:42 - Sender.java --> send() -- data sended --> data packet: {"measurement":25.0,"measurementType":null,"deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 18:09:00 INFO  BaseRunCallableParser:14 - TemperatureRunCallableParser.java --> run()
+2020-02-09 18:09:00 INFO  Sender:21 - Sender.java --> send() method
+2020-02-09 18:09:00 INFO  Sender:29 - Sender.java --> send() --> port:  3001
+2020-02-09 18:09:00 INFO  Sender:30 - Sender.java --> send() --> data: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 18:09:00 INFO  Sender:33 - Sender.java --> send() method ip: 192.168.0.12 inetAdress: /192.168.0.12 -- message: [123, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 34, 58, 50, 53, 46, 48, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 34, 58, 34, 70, 65, 72, 82, 69, 78, 72, 69, 73, 84, 34, 44, 34, 100, 101, 118, 105, 99, 101, 73, 100, 34, 58, 34, 82, 65, 83, 80, 66, 69, 82, 82, 89, 45, 80, 73, 45, 49, 50, 54, 53, 34, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 86, 97, 108, 117, 101, 34, 58, 34, -62, -80, 70, 34, 125]
+2020-02-09 18:09:00 INFO  Sender:36 - Sender.java --> send() --> packet:  java.net.DatagramPacket@21ff239e
+2020-02-09 18:09:00 INFO  Sender:42 - Sender.java --> send() -- data sended --> data packet: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 18:09:00 INFO  BaseRunCallableParser:13 - InputRunCallableParser.java --> run()
+2020-02-09 18:09:00 INFO  BaseCallable:17 - InputCallableParser.java --> call()
+2020-02-09 18:21:00 INFO  BaseRunCallableParser:14 - TemperatureRunCallableParser.java --> run()
+2020-02-09 18:21:00 INFO  Sender:21 - Sender.java --> send() method
+2020-02-09 18:21:00 INFO  Sender:29 - Sender.java --> send() --> port:  3001
+2020-02-09 18:21:00 INFO  Sender:30 - Sender.java --> send() --> data: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 18:21:00 INFO  Sender:33 - Sender.java --> send() method ip: 192.168.0.12 inetAdress: /192.168.0.12 -- message: [123, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 34, 58, 50, 53, 46, 48, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 34, 58, 34, 70, 65, 72, 82, 69, 78, 72, 69, 73, 84, 34, 44, 34, 100, 101, 118, 105, 99, 101, 73, 100, 34, 58, 34, 82, 65, 83, 80, 66, 69, 82, 82, 89, 45, 80, 73, 45, 49, 50, 54, 53, 34, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 86, 97, 108, 117, 101, 34, 58, 34, -62, -80, 70, 34, 125]
+2020-02-09 18:21:00 INFO  Sender:36 - Sender.java --> send() --> packet:  java.net.DatagramPacket@3c4d76be
+2020-02-09 18:21:00 INFO  Sender:42 - Sender.java --> send() -- data sended --> data packet: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 18:21:00 INFO  BaseRunCallableParser:13 - InputRunCallableParser.java --> run()
+2020-02-09 18:21:00 INFO  BaseCallable:17 - InputCallableParser.java --> call()
+2020-02-09 18:21:00 INFO  BaseService:74 - TemperatureService.java --> AddTemperature()
+2020-02-09 18:22:00 INFO  BaseRunCallableParser:14 - TemperatureRunCallableParser.java --> run()
+2020-02-09 18:22:00 INFO  Sender:21 - Sender.java --> send() method
+2020-02-09 18:22:00 INFO  Sender:29 - Sender.java --> send() --> port:  3001
+2020-02-09 18:22:00 INFO  Sender:30 - Sender.java --> send() --> data: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 18:22:00 INFO  Sender:33 - Sender.java --> send() method ip: 192.168.0.12 inetAdress: /192.168.0.12 -- message: [123, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 34, 58, 50, 53, 46, 48, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 34, 58, 34, 70, 65, 72, 82, 69, 78, 72, 69, 73, 84, 34, 44, 34, 100, 101, 118, 105, 99, 101, 73, 100, 34, 58, 34, 82, 65, 83, 80, 66, 69, 82, 82, 89, 45, 80, 73, 45, 49, 50, 54, 53, 34, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 86, 97, 108, 117, 101, 34, 58, 34, -62, -80, 70, 34, 125]
+2020-02-09 18:22:00 INFO  Sender:36 - Sender.java --> send() --> packet:  java.net.DatagramPacket@4890ccd9
+2020-02-09 18:22:00 INFO  Sender:42 - Sender.java --> send() -- data sended --> data packet: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 18:22:00 INFO  BaseRunCallableParser:13 - InputRunCallableParser.java --> run()
+2020-02-09 18:22:00 INFO  BaseCallable:17 - InputCallableParser.java --> call()
+2020-02-09 18:22:00 INFO  BaseService:74 - TemperatureService.java --> AddTemperature()
+2020-02-09 18:24:00 INFO  BaseRunCallableParser:14 - TemperatureRunCallableParser.java --> run()
+2020-02-09 18:24:00 INFO  Sender:21 - Sender.java --> send() method
+2020-02-09 18:24:00 INFO  Sender:29 - Sender.java --> send() --> port:  3001
+2020-02-09 18:24:00 INFO  Sender:30 - Sender.java --> send() --> data: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 18:24:00 INFO  Sender:33 - Sender.java --> send() method ip: 192.168.0.12 inetAdress: /192.168.0.12 -- message: [123, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 34, 58, 50, 53, 46, 48, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 34, 58, 34, 70, 65, 72, 82, 69, 78, 72, 69, 73, 84, 34, 44, 34, 100, 101, 118, 105, 99, 101, 73, 100, 34, 58, 34, 82, 65, 83, 80, 66, 69, 82, 82, 89, 45, 80, 73, 45, 49, 50, 54, 53, 34, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 86, 97, 108, 117, 101, 34, 58, 34, -62, -80, 70, 34, 125]
+2020-02-09 18:24:00 INFO  Sender:36 - Sender.java --> send() --> packet:  java.net.DatagramPacket@34836ad9
+2020-02-09 18:24:00 INFO  Sender:42 - Sender.java --> send() -- data sended --> data packet: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 18:24:00 INFO  BaseRunCallableParser:13 - InputRunCallableParser.java --> run()
+2020-02-09 18:24:00 INFO  BaseCallable:17 - InputCallableParser.java --> call()
+2020-02-09 18:24:00 INFO  BaseService:74 - TemperatureService.java --> AddTemperature()
+2020-02-09 18:24:00 INFO  BaseService:81 - TemperatureService.java --> AddTemperature() -- error: Unexpected end-of-input: expected close marker for Object (start marker at [Source: (String)"{"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F""; line: 1, column: 1])
+ at [Source: (String)"{"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F""; line: 1, column: 110]
+2020-02-09 18:24:00 INFO  BaseService:85 - TemperatureService.java --> AddTemperature() -- added
+2020-02-09 18:25:00 INFO  BaseRunCallableParser:14 - TemperatureRunCallableParser.java --> run()
+2020-02-09 18:25:00 INFO  Sender:21 - Sender.java --> send() method
+2020-02-09 18:25:00 INFO  Sender:29 - Sender.java --> send() --> port:  3001
+2020-02-09 18:25:00 INFO  Sender:30 - Sender.java --> send() --> data: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 18:25:00 INFO  Sender:33 - Sender.java --> send() method ip: 192.168.0.12 inetAdress: /192.168.0.12 -- message: [123, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 34, 58, 50, 53, 46, 48, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 34, 58, 34, 70, 65, 72, 82, 69, 78, 72, 69, 73, 84, 34, 44, 34, 100, 101, 118, 105, 99, 101, 73, 100, 34, 58, 34, 82, 65, 83, 80, 66, 69, 82, 82, 89, 45, 80, 73, 45, 49, 50, 54, 53, 34, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 86, 97, 108, 117, 101, 34, 58, 34, -62, -80, 70, 34, 125]
+2020-02-09 18:25:00 INFO  Sender:36 - Sender.java --> send() --> packet:  java.net.DatagramPacket@375d7761
+2020-02-09 18:25:00 INFO  Sender:42 - Sender.java --> send() -- data sended --> data packet: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 18:25:00 INFO  BaseRunCallableParser:13 - InputRunCallableParser.java --> run()
+2020-02-09 18:25:00 INFO  BaseCallable:17 - InputCallableParser.java --> call()
+2020-02-09 18:25:00 INFO  BaseService:74 - TemperatureService.java --> AddTemperature()
+2020-02-09 18:25:00 INFO  BaseService:81 - TemperatureService.java --> AddTemperature() -- error: Unexpected end-of-input: expected close marker for Object (start marker at [Source: (String)"{"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F""; line: 1, column: 1])
+ at [Source: (String)"{"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F""; line: 1, column: 110]
+2020-02-09 18:25:00 INFO  BaseService:85 - TemperatureService.java --> AddTemperature() -- added
+2020-02-09 18:28:00 INFO  BaseRunCallableParser:14 - TemperatureRunCallableParser.java --> run()
+2020-02-09 18:28:00 INFO  Sender:21 - Sender.java --> send() method
+2020-02-09 18:28:00 INFO  Sender:29 - Sender.java --> send() --> port:  3001
+2020-02-09 18:28:00 INFO  Sender:30 - Sender.java --> send() --> data: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 18:28:00 INFO  Sender:33 - Sender.java --> send() method ip: 192.168.0.12 inetAdress: /192.168.0.12 -- message: [123, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 34, 58, 50, 53, 46, 48, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 34, 58, 34, 70, 65, 72, 82, 69, 78, 72, 69, 73, 84, 34, 44, 34, 100, 101, 118, 105, 99, 101, 73, 100, 34, 58, 34, 82, 65, 83, 80, 66, 69, 82, 82, 89, 45, 80, 73, 45, 49, 50, 54, 53, 34, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 86, 97, 108, 117, 101, 34, 58, 34, -62, -80, 70, 34, 125]
+2020-02-09 18:28:00 INFO  Sender:36 - Sender.java --> send() --> packet:  java.net.DatagramPacket@10d53191
+2020-02-09 18:28:00 INFO  Sender:42 - Sender.java --> send() -- data sended --> data packet: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 18:28:00 INFO  BaseRunCallableParser:13 - InputRunCallableParser.java --> run()
+2020-02-09 18:28:00 INFO  BaseCallable:17 - InputCallableParser.java --> call()
+2020-02-09 18:28:00 INFO  BaseService:74 - TemperatureService.java --> AddTemperature()
+2020-02-09 18:28:00 INFO  BaseService:81 - TemperatureService.java --> AddTemperature() -- error: Unexpected end-of-input: expected close marker for Object (start marker at [Source: (String)"{"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F""; line: 1, column: 1])
+ at [Source: (String)"{"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F""; line: 1, column: 110]
+2020-02-09 18:28:00 INFO  BaseService:85 - TemperatureService.java --> AddTemperature() -- added
+2020-02-09 18:51:00 INFO  BaseRunCallableParser:14 - TemperatureRunCallableParser.java --> run()
+2020-02-09 18:51:00 INFO  Sender:21 - Sender.java --> send() method
+2020-02-09 18:51:00 INFO  Sender:29 - Sender.java --> send() --> port:  3001
+2020-02-09 18:51:00 INFO  Sender:30 - Sender.java --> send() --> data: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 18:51:00 INFO  Sender:33 - Sender.java --> send() method ip: 192.168.0.12 inetAdress: /192.168.0.12 -- message: [123, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 34, 58, 50, 53, 46, 48, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 34, 58, 34, 70, 65, 72, 82, 69, 78, 72, 69, 73, 84, 34, 44, 34, 100, 101, 118, 105, 99, 101, 73, 100, 34, 58, 34, 82, 65, 83, 80, 66, 69, 82, 82, 89, 45, 80, 73, 45, 49, 50, 54, 53, 34, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 86, 97, 108, 117, 101, 34, 58, 34, -62, -80, 70, 34, 125]
+2020-02-09 18:51:00 INFO  Sender:36 - Sender.java --> send() --> packet:  java.net.DatagramPacket@598de2cd
+2020-02-09 18:51:00 INFO  Sender:42 - Sender.java --> send() -- data sended --> data packet: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 18:51:00 INFO  BaseRunCallableParser:13 - InputRunCallableParser.java --> run() -- json: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"
+2020-02-09 18:51:00 INFO  BaseCallable:17 - InputCallableParser.java --> call()
+2020-02-09 18:51:00 INFO  BaseService:74 - TemperatureService.java --> AddTemperature()
+2020-02-09 18:51:00 INFO  BaseService:81 - TemperatureService.java --> AddTemperature() -- error: Unexpected end-of-input: expected close marker for Object (start marker at [Source: (String)"{"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F""; line: 1, column: 1])
+ at [Source: (String)"{"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F""; line: 1, column: 110]
+2020-02-09 18:51:00 INFO  BaseService:85 - TemperatureService.java --> AddTemperature() -- added
+2020-02-09 19:05:00 INFO  BaseRunCallableParser:14 - TemperatureRunCallableParser.java --> run()
+2020-02-09 19:05:00 INFO  Sender:21 - Sender.java --> send() method
+2020-02-09 19:05:00 INFO  Sender:29 - Sender.java --> send() --> port:  3001
+2020-02-09 19:05:00 INFO  Sender:30 - Sender.java --> send() --> data: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 19:05:00 INFO  Sender:33 - Sender.java --> send() method ip: 192.168.0.12 inetAdress: /192.168.0.12 -- message: [123, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 34, 58, 50, 53, 46, 48, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 34, 58, 34, 70, 65, 72, 82, 69, 78, 72, 69, 73, 84, 34, 44, 34, 100, 101, 118, 105, 99, 101, 73, 100, 34, 58, 34, 82, 65, 83, 80, 66, 69, 82, 82, 89, 45, 80, 73, 45, 49, 50, 54, 53, 34, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 86, 97, 108, 117, 101, 34, 58, 34, -62, -80, 70, 34, 125]
+2020-02-09 19:05:00 INFO  Sender:36 - Sender.java --> send() --> packet:  java.net.DatagramPacket@166beba3
+2020-02-09 19:05:00 INFO  Sender:42 - Sender.java --> send() -- data sended --> data packet: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 19:05:00 INFO  BaseRunCallableParser:13 - InputRunCallableParser.java --> run() -- json: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"
+2020-02-09 19:05:00 INFO  BaseCallable:17 - InputCallableParser.java --> call()
+2020-02-09 19:05:00 INFO  BaseService:74 - TemperatureService.java --> AddTemperature()
+2020-02-09 19:05:00 INFO  BaseService:81 - TemperatureService.java --> AddTemperature() -- error: Unexpected end-of-input: expected close marker for Object (start marker at [Source: (String)"{"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F""; line: 1, column: 1])
+ at [Source: (String)"{"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F""; line: 1, column: 110]
+2020-02-09 19:05:00 INFO  BaseService:85 - TemperatureService.java --> AddTemperature() -- added
+2020-02-09 19:06:00 INFO  BaseRunCallableParser:14 - TemperatureRunCallableParser.java --> run()
+2020-02-09 19:06:00 INFO  Sender:21 - Sender.java --> send() method
+2020-02-09 19:06:00 INFO  Sender:29 - Sender.java --> send() --> port:  3001
+2020-02-09 19:06:00 INFO  Sender:30 - Sender.java --> send() --> data: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 19:06:00 INFO  Sender:33 - Sender.java --> send() method ip: 192.168.0.12 inetAdress: /192.168.0.12 -- message: [123, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 34, 58, 50, 53, 46, 48, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 34, 58, 34, 70, 65, 72, 82, 69, 78, 72, 69, 73, 84, 34, 44, 34, 100, 101, 118, 105, 99, 101, 73, 100, 34, 58, 34, 82, 65, 83, 80, 66, 69, 82, 82, 89, 45, 80, 73, 45, 49, 50, 54, 53, 34, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 86, 97, 108, 117, 101, 34, 58, 34, -62, -80, 70, 34, 125]
+2020-02-09 19:06:00 INFO  Sender:36 - Sender.java --> send() --> packet:  java.net.DatagramPacket@5840a0f1
+2020-02-09 19:06:00 INFO  Sender:42 - Sender.java --> send() -- data sended --> data packet: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 19:06:00 INFO  BaseRunCallableParser:13 - InputRunCallableParser.java --> run() -- json: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"
+2020-02-09 19:06:00 INFO  BaseCallable:17 - InputCallableParser.java --> call()
+2020-02-09 19:06:00 INFO  BaseService:74 - TemperatureService.java --> AddTemperature()
+2020-02-09 19:06:00 INFO  BaseService:81 - TemperatureService.java --> AddTemperature() -- error: Unexpected end-of-input: expected close marker for Object (start marker at [Source: (String)"{"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F""; line: 1, column: 1])
+ at [Source: (String)"{"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F""; line: 1, column: 110]
+2020-02-09 19:06:00 INFO  BaseService:85 - TemperatureService.java --> AddTemperature() -- added
+2020-02-09 19:07:00 INFO  BaseRunCallableParser:14 - TemperatureRunCallableParser.java --> run()
+2020-02-09 19:07:00 INFO  Sender:21 - Sender.java --> send() method
+2020-02-09 19:07:00 INFO  Sender:29 - Sender.java --> send() --> port:  3001
+2020-02-09 19:07:00 INFO  Sender:30 - Sender.java --> send() --> data: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 19:07:00 INFO  Sender:33 - Sender.java --> send() method ip: 192.168.0.12 inetAdress: /192.168.0.12 -- message: [123, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 34, 58, 50, 53, 46, 48, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 34, 58, 34, 70, 65, 72, 82, 69, 78, 72, 69, 73, 84, 34, 44, 34, 100, 101, 118, 105, 99, 101, 73, 100, 34, 58, 34, 82, 65, 83, 80, 66, 69, 82, 82, 89, 45, 80, 73, 45, 49, 50, 54, 53, 34, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 86, 97, 108, 117, 101, 34, 58, 34, -62, -80, 70, 34, 125]
+2020-02-09 19:07:00 INFO  Sender:36 - Sender.java --> send() --> packet:  java.net.DatagramPacket@96b7b82
+2020-02-09 19:07:00 INFO  Sender:42 - Sender.java --> send() -- data sended --> data packet: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"}
+2020-02-09 19:07:00 INFO  BaseRunCallableParser:13 - InputRunCallableParser.java --> run() -- json: {"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F"
+2020-02-09 19:07:00 INFO  BaseCallable:17 - InputCallableParser.java --> call()
+2020-02-09 19:07:00 INFO  BaseService:74 - TemperatureService.java --> AddTemperature()
+2020-02-09 19:07:00 INFO  BaseService:81 - TemperatureService.java --> AddTemperature() -- error: Unexpected end-of-input: expected close marker for Object (start marker at [Source: (String)"{"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F""; line: 1, column: 1])
+ at [Source: (String)"{"measurement":25.0,"measurementType":"FAHRENHEIT","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"°F""; line: 1, column: 110]
+2020-02-09 19:07:00 INFO  BaseService:85 - TemperatureService.java --> AddTemperature() -- added
+2020-02-09 19:56:00 INFO  BaseRunCallableParser:14 - TemperatureRunCallableParser.java --> run()
+2020-02-09 19:56:00 INFO  Sender:21 - Sender.java --> send() method
+2020-02-09 19:56:00 INFO  Sender:29 - Sender.java --> send() --> port:  3001
+2020-02-09 19:56:00 INFO  Sender:30 - Sender.java --> send() --> data: {"measurement":25.0,"measurementType":"CENTIGRADE","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"C"}
+2020-02-09 19:56:00 INFO  Sender:33 - Sender.java --> send() method ip: 192.168.0.12 inetAdress: /192.168.0.12 -- message: [123, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 34, 58, 50, 53, 46, 48, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 34, 58, 34, 67, 69, 78, 84, 73, 71, 82, 65, 68, 69, 34, 44, 34, 100, 101, 118, 105, 99, 101, 73, 100, 34, 58, 34, 82, 65, 83, 80, 66, 69, 82, 82, 89, 45, 80, 73, 45, 49, 50, 54, 53, 34, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 86, 97, 108, 117, 101, 34, 58, 34, 67, 34, 125]
+2020-02-09 19:56:00 INFO  Sender:36 - Sender.java --> send() --> packet:  java.net.DatagramPacket@6489b303
+2020-02-09 19:56:00 INFO  Sender:42 - Sender.java --> send() -- data sended --> data packet: {"measurement":25.0,"measurementType":"CENTIGRADE","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"C"}
+2020-02-09 19:56:00 INFO  BaseRunCallableParser:13 - InputRunCallableParser.java --> run() -- json: {"measurement":25.0,"measurementType":"CENTIGRADE","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"C"}
+2020-02-09 19:56:00 INFO  BaseCallable:17 - InputCallableParser.java --> call()
+2020-02-09 19:56:00 INFO  BaseService:74 - TemperatureService.java --> AddTemperature()
+2020-02-09 19:56:00 INFO  BaseService:90 - TemperatureService.java --> convertToModel()
+2020-02-09 20:01:00 INFO  BaseRunCallableParser:14 - TemperatureRunCallableParser.java --> run()
+2020-02-09 20:01:00 INFO  Sender:21 - Sender.java --> send() method
+2020-02-09 20:01:00 INFO  Sender:29 - Sender.java --> send() --> port:  3001
+2020-02-09 20:01:00 INFO  Sender:30 - Sender.java --> send() --> data: {"measurement":25.0,"measurementType":"CENTIGRADE","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"C"}
+2020-02-09 20:01:00 INFO  Sender:33 - Sender.java --> send() method ip: 192.168.0.12 inetAdress: /192.168.0.12 -- message: [123, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 34, 58, 50, 53, 46, 48, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 34, 58, 34, 67, 69, 78, 84, 73, 71, 82, 65, 68, 69, 34, 44, 34, 100, 101, 118, 105, 99, 101, 73, 100, 34, 58, 34, 82, 65, 83, 80, 66, 69, 82, 82, 89, 45, 80, 73, 45, 49, 50, 54, 53, 34, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 86, 97, 108, 117, 101, 34, 58, 34, 67, 34, 125]
+2020-02-09 20:01:00 INFO  Sender:36 - Sender.java --> send() --> packet:  java.net.DatagramPacket@4e2dc249
+2020-02-09 20:01:00 INFO  Sender:42 - Sender.java --> send() -- data sended --> data packet: {"measurement":25.0,"measurementType":"CENTIGRADE","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"C"}
+2020-02-09 20:01:00 INFO  BaseRunCallableParser:13 - InputRunCallableParser.java --> run() -- json: {"measurement":25.0,"measurementType":"CENTIGRADE","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"C"}
+2020-02-09 20:01:00 INFO  BaseCallable:17 - InputCallableParser.java --> call()
+2020-02-09 20:01:00 INFO  BaseService:74 - TemperatureService.java --> AddTemperature()
+2020-02-09 20:01:00 INFO  BaseService:90 - TemperatureService.java --> convertToModel()
+2020-02-09 20:01:00 INFO  BaseService:85 - TemperatureService.java --> AddTemperature() -- added
+2020-02-12 23:33:00 INFO  BaseRunCallableParser:14 - TemperatureRunCallableParser.java --> run()
+2020-02-12 23:33:00 INFO  Sender:21 - Sender.java --> send() method
+2020-02-12 23:33:00 INFO  Sender:29 - Sender.java --> send() --> port:  3001
+2020-02-12 23:33:00 INFO  Sender:30 - Sender.java --> send() --> data: {"measurement":25.0,"measurementType":"CENTIGRADE","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"C"}
+2020-02-12 23:33:00 INFO  Sender:33 - Sender.java --> send() method ip: 192.168.0.15 inetAdress: /192.168.0.15 -- message: [123, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 34, 58, 50, 53, 46, 48, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 34, 58, 34, 67, 69, 78, 84, 73, 71, 82, 65, 68, 69, 34, 44, 34, 100, 101, 118, 105, 99, 101, 73, 100, 34, 58, 34, 82, 65, 83, 80, 66, 69, 82, 82, 89, 45, 80, 73, 45, 49, 50, 54, 53, 34, 44, 34, 109, 101, 97, 115, 117, 114, 101, 109, 101, 110, 116, 84, 121, 112, 101, 86, 97, 108, 117, 101, 34, 58, 34, 67, 34, 125]
+2020-02-12 23:33:00 INFO  Sender:36 - Sender.java --> send() --> packet:  java.net.DatagramPacket@5bcffa59
+2020-02-12 23:33:00 INFO  Sender:42 - Sender.java --> send() -- data sended --> data packet: {"measurement":25.0,"measurementType":"CENTIGRADE","deviceId":"RASPBERRY-PI-1265","measurementTypeValue":"C"}

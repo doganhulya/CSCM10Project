@@ -1,0 +1,23 @@
+{
+  "groups": [
+    {
+      "name": "application",
+      "type": "com.iot.device.properties.ApplicationProperties",
+      "sourceType": "com.iot.device.properties.ApplicationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "application.fog-server-ip-address",
+      "type": "java.lang.String",
+      "sourceType": "com.iot.device.properties.ApplicationProperties"
+    },
+    {
+      "name": "application.port-number",
+      "type": "java.lang.Integer",
+      "sourceType": "com.iot.device.properties.ApplicationProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

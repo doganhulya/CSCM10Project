@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:u="http://www.springframework.org/schema/util"
+	xmlns:broker="http://activemq.apache.org/schema/core"
+	xsi:schemaLocation="	
+         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+         http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd
+         http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+         http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd">
+
+
+	<bean name="temperature"
+		class="com.iot.device.callable.TemperatureRunCallableParser" />
+
+	<bean name="input"
+		class="com.iot.device.callable.InputRunCallableParser" />	
+		<!-- 
+	<bean name="other"
+		class="com.iot.device.callable.OtherRunCallableParser" />
+		 -->
+
+	<bean id="camelTracer"
+		class="org.apache.camel.processor.interceptor.Tracer">
+		<property name="traceOutExchanges" value="true" />
+	</bean>
+
+	<bean id="traceFormatter"
+		class="org.apache.camel.processor.interceptor.DefaultTraceFormatter">
+		<property name="showOutBody" value="true" />
+		<property name="showOutBodyType" value="true" />
+	</bean>
+
+
+	<!-- this is an included XML file where we only the the routeContext -->
+	<camelContext id="camel" trace="true"
+		xmlns="http://camel.apache.org/schema/spring">
+
+		<route autoStartup="true">
+
+			<from uri="quartz2://temperature?cron={{TEMPERATURE_SEND_TIME}}" />
+			<to uri="bean:temperature?method=run" />
+
+		</route>
+		
+		<route>
+
+			<from
+				uri="netty:udp://{{camel.netty.server}}:{{camel.netty.udp.port}}?sync=true&amp;allowDefaultCodec=false" />
+
+			<choice>
+
+				<when>
+					<simple>${bodyAs(String)} contains 'deviceId'</simple>
+					<bean ref="input" method="run"></bean>
+					<to uri="mock:result" />
+				</when>
+			
+			<!-- 
+				<otherwise>
+					<bean ref="other" method="run"></bean>
+					<to uri="mock:result" />
+				</otherwise> -->
+
+			</choice>
+
+		</route>
+		
+	</camelContext>
+
+
+</beans>
